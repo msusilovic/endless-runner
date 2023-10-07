@@ -1,0 +1,90 @@
+.game {
+    background: black;
+    padding-top: 5%;
+    padding-bottom: 10.5%;
+    align-items: start;
+    display: flex;
+    justify-content: center;
+}
+
+.canvas {
+    margin-left: 20%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border-color: white;
+    border-style: solid;
+}
+
+.heart {
+    height: 20%;
+    width: 20%;
+}
+
+.score {
+    font: 50px "Courier New";
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+    color:green;
+}
+
+.scoreboard {
+    margin-left: 2%;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    width: 18%;
+    height: 20%;
+    border-style: solid;
+    border-color: white;
+}
+
+.start-screen {
+    background-color: #2a71f5;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+}
+
+.start-button {
+    border-style: none;
+    margin-top:70px;
+    background-color: transparent;
+}
+
+.start-button-image {
+    cursor: pointer;
+    width: 250px;
+    height: 100px;
+}
+
+.runner {
+    width: 150px;
+    height: 150px;
+}
+
+.final-scoreboard {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+}
+
+.final-score {
+    font: 50px "Courier New";
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+    color:black;
+}
+
+.high-score {
+    font: 40px "Courier New";
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color:black;
+}
